@@ -1,6 +1,26 @@
 # Disaster Response Pipeline Project
 
-### Instructions:
+##  web app where an emergency worker can input a new message and get classification results in several categories
+
+## Link to Webapp [https://emerging-markets-land-use.herokuapp.com](https://emerging-markets-land-use.herokuapp.com)
+
+## General Information
+With the help natural language processing, machine learning and data engineering skills I analyzed disaster data from Figure Eight to build a model for an API that classifies disaster message.
+The web app will also display visualizations of the data
+
+The web app was delpoyed on heroku.
+
+## Prerequisites
+
+To install the flask app, you need:
+- python3
+- python packages in the requirements.txt file
+ 
+ Install the packages with
+``` 
+ pip install -r requirements.txt
+
+## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
