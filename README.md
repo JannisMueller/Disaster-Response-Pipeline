@@ -2,23 +2,39 @@
 
 ##  web app where an emergency worker can input a new message and get classification results in several categories
 
-## Link to Webapp [https://emerging-markets-land-use.herokuapp.com](https://emerging-markets-land-use.herokuapp.com)
+![Alt text](/Users/jamu/Desktop/Udacity/Screenshot)
+
 
 ## General Information
 With the help natural language processing, machine learning and data engineering skills I analyzed disaster data from Figure Eight to build a model for an API that classifies disaster message.
 The web app will also display visualizations of the data
 
-The web app was delpoyed on heroku.
 
-## Prerequisites
+#Specifications
+The project includes the following files:
 
-To install the flask app, you need:
-- python3
-- python packages in the requirements.txt file
- 
- Install the packages with
-``` 
- pip install -r requirements.txt
+1. ETL Pipeline
+Python script, `process_data.py`, cleaning pipeline that:
+
+Loads the messages and categories datasets
+Merges the two datasets
+Cleans the data
+Stores it in a SQLite database
+
+2. ML Pipeline
+Python script, `train_classifier.py`, machine learning pipeline that:
+
+Loads data from the SQLite database
+Splits the dataset into training and test sets
+Builds a text processing and machine learning pipeline
+Trains and tunes a model using GridSearchCV
+Outputs results on the test set
+Exports the final model as a pickle file
+
+3. Flask Web App
+
+
+
 
 ## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
