@@ -6,6 +6,7 @@
 With the help natural language processing, machine learning and data engineering skills I analyzed disaster data from Figure Eight to build a model for an API that classifies disaster message.
 The web app will also display visualizations of the data.
 
+![alt text](https://github.com/JannisMueller/Disaster-Response-Pipeline/blob/master/disaster_app_screenshot.png)
 
 ## Specifications
 The project includes the following files:
